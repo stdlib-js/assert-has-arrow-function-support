@@ -22,7 +22,7 @@ limitations under the License.
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
 
-> Detect native [`arrow function`][arrow-function] support.
+> Detect native [`arrow function`][mdn-arrow-function] support.
 
 <section class="installation">
 
@@ -44,7 +44,7 @@ var hasArrowFunctionSupport = require( '@stdlib/assert-has-arrow-function-suppor
 
 #### hasArrowFunctionSupport()
 
-Detects if a runtime environment supports ES2015 [`arrow functions`][arrow-function]` such as `( a, b ) => a + b`, `x => x`, or `( x ) => { return x*x; }`.
+Detects if a runtime environment supports ES2015 [`arrow functions`][mdn-arrow-function]` such as `( a, b ) => a + b`, `x => x`, or `( x ) => { return x*x; }`.
 
 ```javascript
 var bool = hasArrowFunctionSupport();
@@ -193,7 +193,7 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/assert-has-arrow-function-support/main/LICENSE
 
-[arrow-function]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+[mdn-arrow-function]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
 
 [mdn-csp]: https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
 
