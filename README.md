@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import hasArrowFunctionSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-arrow-function-support@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-has-arrow-function-support/tags). For example,
+
+```javascript
 import hasArrowFunctionSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-arrow-function-support@v0.2.1-esm/index.mjs';
 ```
 
@@ -80,7 +85,7 @@ var bool = hasArrowFunctionSupport();
 <body>
 <script type="module">
 
-import hasArrowFunctionSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-arrow-function-support@v0.2.1-esm/index.mjs';
+import hasArrowFunctionSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-arrow-function-support@esm/index.mjs';
 
 var bool = hasArrowFunctionSupport();
 if ( bool ) {
