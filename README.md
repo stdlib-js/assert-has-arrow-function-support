@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import hasArrowFunctionSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-arrow-function-support@esm/index.mjs';
+import hasArrowFunctionSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-arrow-function-support@v0.2.1-esm/index.mjs';
 ```
 
 #### hasArrowFunctionSupport()
@@ -80,7 +80,7 @@ var bool = hasArrowFunctionSupport();
 <body>
 <script type="module">
 
-import hasArrowFunctionSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-arrow-function-support@esm/index.mjs';
+import hasArrowFunctionSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-arrow-function-support@v0.2.1-esm/index.mjs';
 
 var bool = hasArrowFunctionSupport();
 if ( bool ) {
